@@ -23,7 +23,7 @@
     <None Include="test.hlsli" />
   </ItemGroup>
   <ItemGroup>
-    <FxCompile Include="ps.hlsl">
+    <FxCompile Include="vs.fx">
       <Filter>ソース ファイル</Filter>
     </FxCompile>
     <FxCompile Include="vs.hlsl">
