@@ -20,14 +20,19 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="test.hlsli" />
-  </ItemGroup>
-  <ItemGroup>
     <FxCompile Include="vs.fx">
       <Filter>ソース ファイル</Filter>
     </FxCompile>
-    <FxCompile Include="vs.hlsl">
+    <FxCompile Include="ps.fx">
       <Filter>ソース ファイル</Filter>
     </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vs.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ps.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

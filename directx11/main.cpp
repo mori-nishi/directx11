@@ -1,8 +1,8 @@
 #include <Windows.h>
 #include <tchar.h>
 #include <d3d11.h>
-
-
+#include "vs.h"
+#include "ps.h"
 #pragma once
 #pragma comment(lib, "d3d11.lib")
 \
