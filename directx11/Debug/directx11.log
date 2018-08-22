@@ -1,3 +1,2 @@
-﻿FXC : error X3501: 'main': entrypoint not found
-  
-  compilation failed; no code produced
+﻿  main.cpp
+  directx11.vcxproj -> C:\Users\bikeo\source\repos\directx11\Debug\directx11.exe

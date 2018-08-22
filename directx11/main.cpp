@@ -253,7 +253,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLin
 		hpDXGISwpChain->Present(0, 0);
 	}
 	//ƒƒCƒ“ƒ‹[ƒv
-	MSG hMsg;
+	/*MSG hMsg;*/
 	while (true) {
 		while (PeekMessageW(&hMsg, NULL, 0, 0, PM_REMOVE)) {
 			if (hMsg.message == WM_QUIT) {

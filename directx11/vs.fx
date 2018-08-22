@@ -1,5 +1,4 @@
 //“ü—Í—p
-
 struct vertexIn
 {
 	float4 pos : POSITION0;
